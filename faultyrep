@@ -1,0 +1,16 @@
+# a = 18
+# print("You have 9 chance remaining")
+# guess = 1
+# while (guess <= 9):
+#     num = int(input("Guess the number \n"))
+#     if num < a:
+#         print("Your number is lesser")
+#     elif num > a:
+#         print("Your number is greater")
+#     else:
+#         print("congrats your guessed number is right in", guess, "times")
+#         break
+#     print("You have", (9 - guess), "times of chance reamining")
+#     guess = guess + 1
+# if guess > 9:
+#     print("Game over")
