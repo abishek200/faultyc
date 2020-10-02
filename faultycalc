@@ -1,0 +1,34 @@
+# n=18
+# number_of_guesses=1
+# print("Number of guesses is limited to only 9 times: ")
+# while (number_of_guesses<=9):
+#     guess_number = int(input("Guess the number :\n"))
+#     if guess_number<18:
+#         print("you enter less number please input greater number.\n")
+#     elif guess_number>18:
+#         print("you enter greater number please input smaller number.\n ")
+#     else:
+#         print("you won\n")
+#         print(number_of_guesses,"no.of guesses he took to finish.")
+#         break
+#     print(9-number_of_guesses,"no. of guesses left")
+#     number_of_guesses = number_of_guesses + 1
+# if(number_of_guesses>9):
+#     print("Game Over")
+
+# a = 18
+# print("You have 9 chance remaining")
+# guess = 1
+# while (guess <= 9):
+#     num = int(input("Guess the number \n"))
+#     if num < a:
+#         print("Your number is lesser")
+#     elif num > a:
+#         print("Your number is greater")
+#     else:
+#         print("congrats your guessed number is right in", guess, "times")
+#         break
+#     print("You have", (9 - guess), "times of chance reamining")
+#     guess = guess + 1
+# if guess > 9:
+#     print("Game over")
